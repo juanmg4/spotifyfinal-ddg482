@@ -1,0 +1,9 @@
+<!-- Boton de mostrar mas... -->
+<div class="col-lg-4" [ngClass]="{'center-home': type==='home', 'center-search': type==='search'}"> <!-- Ancho del boton de mostrar mas y posicion centrada en home/search -->
+  <button type="button" class="btn btn-success btn-lg ancho" (click)="showMore()">Mostrar mas...</button> <!-- Cada vez que hago click en el boton, llama al metodo handler showMore, que le envia un mensaje al componente padre para que incremente la cantidad de elementos a mostrar en su vista -->
+</div>
+
+
+
+
+

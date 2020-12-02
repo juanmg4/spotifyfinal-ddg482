@@ -1,0 +1,203 @@
+@media (max-width: 700px) {
+  .fondo{
+    margin-top: 20px;
+    width: 405px;
+  }
+
+  .fondo2{
+    margin-top: 20px;
+    width: 405px;
+  }
+
+  .fondo3{
+    margin-top: 20px;
+    width: 405px;
+  }
+
+  .parrafo-responsivo{
+    font-size: 50px;
+    font-weight: bold;
+    margin-right: 100px;
+    margin-left: 80px;
+    text-align: center;
+  }
+
+  .form-control{
+    width: 395px;
+    margin-bottom: 90px;
+    margin-left: 5px;
+  }
+}
+
+@media (min-width: 700px) {
+  .fondo{
+    margin-top: 20px;
+    width: 605px;
+  }
+
+  .fondo2{
+    margin-top: 20px;
+    width: 605px;
+  }
+
+  .fondo3{
+    margin-top: 20px;
+    width: 605px;
+  }
+
+  .parrafo-responsivo{
+    font-size: 50px;
+    font-weight: bold;
+    margin-right: 100px;
+    margin-left: 100px;
+    text-align: center;
+  }
+
+  .form-control{
+    width: 290px;
+    margin-bottom: 90px;
+    margin-left: 5px;
+  }
+}
+
+@media (min-width: 990px) {
+  .fondo{
+    margin-top: 20px;
+    width: 805px;
+  }
+
+  .fondo2{
+    margin-top: 20px;
+    width: 805px;
+  }
+
+  .fondo3{
+    margin-top: 20px;
+    width: 805px;
+  }
+
+  .parrafo-responsivo{
+    font-size: 50px;
+    font-weight: bold;
+    margin-right: 100px;
+    text-align: center;
+  }
+
+  .form-control{
+    width: 390px;
+    margin-bottom: 90px;
+    margin-left: 5px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .fondo{
+    margin-top: 20px;
+    width: 1205px;
+  }
+
+  .fondo2{
+    margin-top: 20px;
+    width: 1205px;
+  }
+
+  .fondo3{
+    margin-top: 20px;
+    width: 1205px;
+  }
+
+  .parrafo-responsivo{
+    font-size: 50px;
+    font-weight: bold;
+    margin-right: 100px;
+    text-align: center;
+  }
+
+  .form-control{
+    width: 360px;
+    margin-bottom: 90px;
+    margin-left: 5px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .fondo{
+    margin-top: 20px;
+    width: 1505px;
+  }
+
+  .fondo2{
+    margin-top: 20px;
+    width: 1505px;
+  }
+
+  .fondo3{
+    margin-top: 20px;
+    width: 1505px;
+  }
+
+  .parrafo-responsivo{
+    font-size: 50px;
+    font-weight: bold;
+    margin-right: 100px;
+    text-align: center;
+  }
+
+  .form-control{
+    width: 360px;
+    margin-bottom: 90px;
+    margin-left: 5px;
+  }
+}
+
+@media (min-width: 1920px){
+  /* Tamaño de los fondos de los parrafos que aparecen cuando se muestran los favoritos. */
+  .fondo{
+    margin-top: 20px;
+    width: 1775px;
+  }
+
+  .fondo2{
+    margin-top: 20px;
+    width: 1775px;
+  }
+
+  .fondo3{
+    margin-top: 20px;
+    width: 1775px;
+  }
+
+  .parrafo-responsivo{
+    font-size: 50px;
+    font-weight: bold;
+    margin-right: 100px;
+    text-align: center;
+  }
+
+ .form-control{
+    width: 425px;
+    margin-bottom: 90px;
+    margin-left: 5px;
+  }
+}
+
+/* Color fondos parrafos favoritos */
+.fondo{
+  background-color: darkred;
+}
+
+.fondo2{
+  background-color:darkgreen;
+}
+
+.fondo3{
+  background-color: rgb(34, 25, 95);
+}
+
+/* Para darle un estilo redondeado al fondo de los parrafos de favoritos */
+.fondo-parrafo-redondeado{
+  border-radius: 50px;
+}
+
+
+

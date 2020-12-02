@@ -1,0 +1,149 @@
+/* Margenes de las tarjetas */
+.margenes {
+  margin-top: 90px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  margin-left: 0px;
+}
+
+/* Margenes de las tarjetas de favoritos */
+.margenes-favoritos {
+  margin-top: 40px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  margin-left: 0px;
+}
+
+@media (max-width: 700px) {
+  .card-columns {
+    column-count: 1; /* cantidad de tarjetas por columna */
+    width: 400px;
+  }
+
+  /* Estilos del widget para reproducir canciones de Spotify */
+  iframe {
+    width:360px;
+    /*border-radius: 5px;*/
+  }
+}
+
+@media (min-width: 700px) {
+  .card-columns {
+    column-count: 2; /* cantidad de tarjetas por columna */
+    width: 600px;
+  }
+  iframe {
+    width:250px;
+    /*border-radius: 5px;*/
+  }
+}
+
+/* Mientras la resolucion no sea mas chica que 990px, que muestre los estilos del ultimo @media query, en cambio, si la resolucion es mas chica que 990px, muestra este media query */
+@media (min-width: 990px) {
+  .card-columns {
+    column-count: 2; /* cantidad de tarjetas por columna */
+    width: 800px;
+  }
+  iframe {
+    width:350px;
+    /*border-radius: 5px;*/
+  }
+}
+
+@media (min-width: 1300px) {
+  .card-columns {
+    column-count: 4; /* cantidad de tarjetas por columna */
+    width: 1200px;
+  }
+  iframe {
+    width:240px;
+    /*border-radius: 5px;*/
+  }
+}
+
+@media (min-width: 1600px) {
+  .card-columns {
+    column-count: 4; /* cantidad de tarjetas por columna */
+    width: 1500px;
+  }
+  iframe {
+    width:320px;
+    /*border-radius: 5px;*/
+  }
+}
+
+/* A partir de que tamaño de pantalla los estilos se vuelven responsivos, en este caso a partir de los 1920px (apenas achico la pantalla ya se vuelven responsivos). En otras palabras,
+   mientras la pantalla no sea mas chica que 1920px, se aplica lo que esta adentro de este @media query. Cuando es mas chica que 1920px, se aplican los estilos de bootstrap u otros @media query si los hay mas arriba */
+@media (min-width: 1920px) {
+  .card-columns {
+    column-count: 4; /* cantidad de tarjetas por columna */
+    width: 1770px; /* ancho de la tarjeta (en em)*/
+  }
+
+  /* Estilos del widget para reproducir canciones de Spotify */
+  iframe {
+    width:385px;
+    /*border-radius: 5px;*/
+  }
+}
+
+.color-body-home {
+  background-color: gray;
+}
+
+.color-body-artist {
+  background-color: goldenrod;
+}
+
+.color-body-track {
+  background-color: khaki;
+}
+
+/* boton de agregar favoritos */
+.button-favorite-image {
+  display: block;
+  width: 35px;
+  height: 35px;
+  background-image: url("../../../assets/img/favorito2.png");
+  background-position: center;
+  background-size: 40px;
+  position: absolute;
+  top: 0%;
+}
+
+/* boton de eliminar favoritos */
+.button-delete-favorite-image {
+  display:block;
+  width:35px;
+  height:35px;
+  background-image: url('../../../assets/img/eliminar2.png');
+  background-position: center;
+  background-size: 31px;
+  position: absolute;
+  top: 0%;
+}
+
+.card-title-home{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.card-title-track-search{
+  font-size: 25px;
+   font-weight: 600;
+}
+
+.card-title-artist-search{
+  font-size: 25px;
+   font-weight: 600;
+}
+
+.artist-name-home{
+  font-size:90%;
+}
+
+/* Mantiene el tamaño original de la imagen, pero la corta si no entra */
+.embed-responsive-1by1 .card-img-top {
+  object-fit: cover;
+}
+

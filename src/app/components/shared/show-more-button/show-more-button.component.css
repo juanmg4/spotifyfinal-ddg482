@@ -1,0 +1,81 @@
+@media (max-width: 700px) {
+  /* centrar boton */
+  .center-home {
+    left: 50%;
+  }
+  /* centrar boton */
+  .center-search {
+    left: 50%;
+   }
+}
+
+@media (min-width: 700px) {
+  /* centrar boton */
+  .center-home {
+    left: 68%;
+  }
+  .center-search {
+    left: 68%;
+  }
+}
+
+/* Mientras la resolucion no sea mas chica que 990px, que muestre los estilos del ultimo @media query, ahora si la resolucion es mas chica que 990px, muestra este media query */
+@media (min-width: 990px) {
+ /* centrar boton */
+  .center-home {
+    left: 50%;
+  }
+  .center-search {
+    left: 50%;
+  }
+}
+
+@media (min-width: 1300px) {
+  /* centrar boton */
+  .center-home {
+    left: 55%;
+  }
+  .center-search {
+    left: 55%;
+  }
+}
+
+@media (min-width: 1600px) {
+/* centrar boton */
+  .center-home {
+    left: 68%;
+  }
+  .center-search {
+    left: 68%;
+  }
+}
+
+/* A partir de que tamaño de pantalla los estilos se vuelven responsivos, en este caso a partir de los 1920px (apenas achico la pantalla ya se vuelven responsivos). En otras palabras,
+   mientras la pantalla no sea mas chica que 1920px, se aplica lo que esta adentro de este @media query. Cuando es mas chica que 1920px, se aplican los estilos de bootstrap u otros @media query si los hay mas arriba */
+@media (min-width: 1920px) {
+  /* centrar boton */
+  .center-home {
+    left: 81%;
+  }
+  .center-search {
+    left: 81%;
+  }
+}
+
+  /* centrar boton mostrar mas de la home */
+  .center-home {
+    top: 10%; /* Mueve el boton hacia arriba si es negativo y hacia abajo si es positivo */
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  /* centrar boton mostrar mas de search */
+  .center-search {
+    top: 30%; /* Mueve el boton hacia arriba si es negativo y hacia abajo si es positivo */
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin-top: 50px;
+  }
+
+  /* Ancho del boton de mostrar mas */
+.ancho{width: 300px}
